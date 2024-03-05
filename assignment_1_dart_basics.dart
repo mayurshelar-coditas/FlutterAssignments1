@@ -192,7 +192,7 @@ void main() {
 // 13. Create a Dart program that finds the first occurrence of a negative number in a list using 'break'.
 // 	Input: [5, 8, -3, 10, -7, 2]
 // 		Output:	 5, 8
-  void getFirstOccurenceOfNegativeNumber(List<int> numbers) {
+  void getFirstOccurrenceOfNegativeNumber(List<int> numbers) {
     for (int number = 0; number < numbers.length; number++) {
       if (numbers[number] < 0) {
         print("Negative numbers first occurs at index $number");
@@ -201,7 +201,7 @@ void main() {
     }
   }
 
-  getFirstOccurenceOfNegativeNumber([5, 8, -3, 10, -7, 2]);
+  getFirstOccurrenceOfNegativeNumber([5, 8, -3, 10, -7, 2]);
 
 // 14. Write a Dart program with a function that calculates the volume of a box.
 // The function should take three parameters: length, width, and height.
